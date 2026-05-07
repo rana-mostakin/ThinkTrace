@@ -382,7 +382,10 @@ def _process_answer(
         st.session_state["session_bridge"] = bridge
 
         # Update knowledge graph
-        process_session_for_graph(user["id"], session, q)
+        # FIX: Retrieve the session object before using it
+        session = get_session(session_id)
+        if session:
+            process_session_for_graph(user["id"], session, q)
 
     # Update session state
     st.session_state["session_messages"] = messages
