@@ -16,7 +16,7 @@ The knowledge graph grows as you use it. Green nodes mean solid understanding. R
 
 ## Live demo
 
-**[https://rana-mostakin-thinktrace.streamlit.app](https://rana-mostakin-thinktrace.streamlit.app)**
+**[https://thinktrace.streamlit.app](https://thinktrace.streamlit.app)**
 
 No account required to preview the interface. Create an account to start sessions and track your knowledge graph over time.
 
